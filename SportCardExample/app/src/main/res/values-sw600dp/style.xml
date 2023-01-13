@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>s
+    </style>
+
+    <style name="SportDetailText" parent="TextAppearance.AppCompat.Headline"/>
+    <style name="SportTitle" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="SportDetailTitle" parent="TextAppearance.AppCompat.Display3">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+</resources>

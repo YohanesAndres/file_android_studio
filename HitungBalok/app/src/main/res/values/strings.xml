@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hitung Balok</string>
+    <string name="text_panjang">Panjang</string>
+    <string name="text_lebar">Lebar</string>
+    <string name="text_tinggi">Tinggi</string>
+    <string name="radio_text_luas">Luas</string>
+    <string name="radio_text_volume">Volume</string>
+    <string name="button_text_hitung">Hitung</string>
+    <string name="button_text_reset">Reset</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="initial_value">0</string>
+    <string name="button_up_text">Up</string>
+    <string name="button_down_text">Down</string>
+    <string name="button_reset_text">Reset</string>
+</resources>

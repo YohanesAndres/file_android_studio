@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">User Interaction With Dialog</string>
+    <string-array name="jurusan">
+        <item>IPA</item>
+        <item>IPS</item>
+        <item>Bahasa</item>
+    </string-array>
+</resources>

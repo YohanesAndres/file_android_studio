@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="SportDetailText" parent="TextAppearance.AppCompat.Subhead"/>
+    <style name="SportTitle" parent="TextAppearance.AppCompat.Headline"/>
+    <style name="SportDetailTitle" parent="TextAppearance.AppCompat.Headline"/>
+</resources>

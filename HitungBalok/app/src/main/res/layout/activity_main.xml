@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_size"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_panjang"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_panjang"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/tv_lebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_lebar"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:layout_below="@+id/et_panjang"
+        android:layout_marginEnd="@dimen/margin_small_size"/>
+
+    <EditText
+        android:id="@+id/et_lebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/tv_lebar"/>
+
+    <TextView
+        android:id="@+id/tv_tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_tinggi"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:layout_below="@+id/et_lebar"
+        android:layout_marginEnd="@dimen/margin_small_size"/>
+
+    <EditText
+        android:id="@+id/et_tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/tv_tinggi"/>
+
+    <RadioGroup
+        android:id="@+id/rg_balok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/et_tinggi"
+        android:layout_marginEnd="@dimen/margin_small_size">
+
+        <RadioButton
+            android:id="@+id/rb_luas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_text_luas"
+            android:layout_weight="1"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rb_volume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radio_text_volume"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/ll_balok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/rg_balok"
+        android:layout_marginEnd="@dimen/margin_small_size">
+
+    <Button
+        android:id="@+id/btn_hitung"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/button_text_hitung"
+        android:layout_marginEnd="@dimen/margin_small_size"/>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/button_text_reset"
+        android:layout_marginEnd="@dimen/margin_small_size"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/ll_balok"
+        android:layout_marginEnd="@dimen/margin_small_size"/>
+
+</RelativeLayout>

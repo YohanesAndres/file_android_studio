@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_judul_trending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trending"
+            android:textStyle="bold"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/btn_meals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meals"
+            android:layout_below="@+id/tv_judul_trending"/>
+
+        <Button
+            android:id="@+id/btn_chicken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chicken"
+            android:layout_below="@+id/tv_judul_trending"
+            android:layout_toRightOf="@+id/btn_meals"
+            android:layout_marginLeft="8dp"/>
+
+        <Button
+            android:id="@+id/btn_seafood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seafood"
+            android:layout_below="@+id/tv_judul_trending"
+            android:layout_toRightOf="@+id/btn_chicken"
+            android:layout_marginLeft="8dp"/>
+
+        <Button
+            android:id="@+id/btn_noodle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Noodle"
+            android:layout_below="@+id/btn_meals"/>
+
+        <Button
+            android:id="@+id/btn_tea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tea"
+            android:layout_below="@+id/btn_meals"
+            android:layout_toRightOf="@+id/btn_noodle"
+            android:layout_marginLeft="8dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_noodle"
+            android:layout_marginTop="16dp"
+            tools:itemCount="5"
+            tools:listitem="@layout/item_food" />
+
+    </RelativeLayout>
+
+</ScrollView>
