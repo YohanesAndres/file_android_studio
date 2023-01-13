@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "621203761672",
+    "firebase_url": "https://chat-together-137c5-default-rtdb.firebaseio.com",
+    "project_id": "chat-together-137c5",
+    "storage_bucket": "chat-together-137c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621203761672:android:82b381ff6fd01b046dffbd",
+        "android_client_info": {
+          "package_name": "com.if5a.chattogether"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621203761672-b881cv75ch2qdt3gc2t89p1vk85jdlrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZS6nDYt0WRnrBoOly1CqeC1FfzgY6_xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621203761672-b881cv75ch2qdt3gc2t89p1vk85jdlrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

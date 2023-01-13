@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.DetailActivity"
+    android:orientation="vertical"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="JUDUL BUKU "
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/iv_gambar"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="25dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_isbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ISBN      : 1234567890"
+        android:layout_below="@id/iv_gambar"
+        android:paddingTop="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Author   : Yohanes Andres"
+        android:layout_below="@id/tv_isbn"
+        android:paddingTop="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year       : 2022"
+        android:layout_below="@id/tv_author"
+        android:paddingTop="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_publisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publish  : Toel Aniamtion"
+        android:layout_below="@id/tv_year"
+        android:paddingTop="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:layout_marginLeft="10dp"
+        />
+
+
+
+</RelativeLayout>
