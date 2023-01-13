@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Translate"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_rounded_line"
+        android:minHeight="100dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_inputKkbi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:hint="Masukkan kata yang ingin diterjemahkan"
+            android:scrollbars="vertical"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!--    <com.google.android.material.chip.ChipGroup-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <com.google.android.material.chip.Chip-->
+<!--            android:id="@+id/chip_indonesia"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            style="@style/Widget.MaterialComponents.Chip.Filter"-->
+<!--            android:text="Indonesia"/>-->
+
+<!--        <com.google.android.material.chip.Chip-->
+<!--            android:id="@+id/chip_english"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            style="@style/Widget.MaterialComponents.Chip.Filter"-->
+<!--            android:text="english"/>-->
+
+<!--    </com.google.android.material.chip.ChipGroup>-->
+<!--    <Spinner-->
+<!--        android:id="@+id/spinner"-->
+<!--        android:layout_width="283dp"-->
+<!--        android:layout_height="51dp"-->
+<!--        android:entries="@array/country"/>-->
+
+    <Button
+        android:id="@+id/BtnArti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arti"/>
+
+    <TextView
+        android:id="@+id/tv_tampilKkbi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Arti"
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>
